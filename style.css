@@ -157,3 +157,29 @@ a:hover{
   0% { transform:rotateX(0) rotateZ(0); }
   100% { transform:rotateX(360deg) rotateZ(360deg); }
 }
+
+@media (max-width:600px){
+	/*----------Cube-----------*/
+#cube--background{
+	height: 50px;
+	width: 50px;
+}
+.cube--front{
+	transform: translateZ(25px);
+}
+.cube--back{
+	transform: translateZ(-25px) rotateY(180deg);
+}
+.cube--top{
+	transform: rotateX(90deg) translateZ(25px);
+}
+.cube--bottom{
+	transform: rotateX(-90deg) translateZ(25px);
+}
+.cube--left{
+	transform: rotateY(-90deg) translateZ(25px);
+}
+.cube--right{
+	transform: rotateY(90deg) translateZ(25px);
+}
+}
