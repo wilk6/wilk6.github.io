@@ -125,8 +125,8 @@ a:hover span:nth-child(4){
 a:hover{
 	background-color: #eb4d4b;
 	transition-property: background-color ;
-	transition-duration:8s;
-	-webkit-transition-duration:8s;
+	transition-duration:6s;
+	-webkit-transition-duration:6s;
 }
 /*----------Cube-----------*/
 .fifth{
