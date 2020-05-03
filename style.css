@@ -38,21 +38,6 @@ html, body{
 .third:hover article{
 	display: none;
 }
-.fourth:hover article{
-	display: none;
-}
-.sixth:hover article{
-	display: none;
-}
-.seventh:hover article{
-	display: none;
-}
-.eighth:hover article{
-	display: none;
-}
-.ninth:hover article{
-	display: none;
-}
 .first:hover .button{
 	display: block;
 }
@@ -62,20 +47,11 @@ html, body{
 .third:hover .button{
 	display: block;
 }
-.fourth:hover .button{
-	display: block;
+article span{
+	font-weight: bold;
 }
-.sixth:hover .button{
-	display: block;
-}
-.seventh:hover .button{
-	display: block;
-}
-.eithth:hover .button{
-	display: block;
-}
-.ninth:hover .button{
-	display: block;
+article{
+	font-size: 19px;
 }
 /*-------Button----------*/
 .button{
@@ -142,7 +118,7 @@ a:hover span:nth-child(4){
 	transition-delay: 1s;
 }
 a:hover{
-	background-color: #2196f3;
+	background-color: #eb4d4b;
 	transition-property: background-color ;
 	transition-duration:8s;
 	-webkit-transition-duration:8s;
