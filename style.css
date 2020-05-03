@@ -21,10 +21,11 @@ html, body{
 .container>div{
 	margin: 0.3em;
 	background-color: #01a3a4;
+	display: grid;
+	place-content: center;
 }
 .container>div:hover{
 	overflow: hidden;
-
 	box-shadow: black 0 0 2em 0.5em;
 }
 /*-------Button----------*/
