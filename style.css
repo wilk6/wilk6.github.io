@@ -158,7 +158,7 @@ a:hover{
   100% { transform:rotateX(360deg) rotateZ(360deg); }
 }
 
-@media (max-width:600px){
+@media screen and (max-width:600px){
 	/*----------Cube-----------*/
 #cube--background{
 	height: 50px;
