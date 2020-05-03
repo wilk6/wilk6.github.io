@@ -55,6 +55,9 @@ article{
 	font-size: 19px;
 	color: #c7ecee;
 }
+article p{
+	box-shadow: #537577 0  0em 1em 0;
+}
 /*-------Button----------*/
 .button{
 	display: none;
