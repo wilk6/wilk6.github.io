@@ -28,6 +28,31 @@ html, body{
 	overflow: hidden;
 	box-shadow: black 0 0 2em 0.5em;
 }
+/*----------Article----------------------*/
+.first:hover article{
+	display: none;
+}
+.second:hover article{
+	display: none;
+}
+.third:hover article{
+	display: none;
+}
+.fourtht:hover article{
+	display: none;
+}
+.sixth:hover article{
+	display: none;
+}
+.seventh:hover article{
+	display: none;
+}
+.eighth:hover article{
+	display: none;
+}
+.ninth:hover article{
+	display: none;
+}
 /*-------Button----------*/
 a {
 	position: relative;
